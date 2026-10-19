@@ -97,6 +97,8 @@ After exhausting the basic recovery attempts, I decided to open the device to in
 
 The Shark Jack has a compact enclosure, so I carefully pried it open to expose the PCB and battery.
 
+While peeling the adhesive-held battery away from the PCB, I discovered a tiny SMD component stuck to the battery adhesive. I suspect the adhesive may have lifted it from the board during disassembly, but I did not observe the exact moment it detached and still need to confirm its original position. This is a separate event from the firmware-update failure that prompted me to open the Shark Jack.
+
 Once I had access to the internal components, I began photographing the board from multiple angles.
 
 I wanted to preserve a visual reference of the component placement, wiring, solder joints, and overall condition before attempting any repairs.
@@ -109,105 +111,105 @@ I captured 13 photographs during the initial disassembly.
 
 They cover both sides of the PCB, the internal battery, the Ethernet wiring, the processor, and other components.
 
-**📷 IMAGE PLACEHOLDER — Initial disassembly overview**
+#### 📷 Initial disassembly overview
 
-*Insert: `shark-jack-initial-disassembly-6489.HEIC`*
+![Shark Jack initial disassembly 6489](media/initial-disassembly/shark-jack-initial-disassembly-6489.jpg)
 
 **My notes:** This is one of my first photographs after opening the enclosure. It provides an overview of the internal PCB, Ethernet wiring, and USB-C connection.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — PCB component-side overview**
+#### 📷 PCB component-side overview
 
-*Insert: `shark-jack-initial-disassembly-6490.HEIC`*
+![Shark Jack initial disassembly 6490](media/initial-disassembly/shark-jack-initial-disassembly-6490.jpg)
 
 **My notes:** This photograph gives me another reference for identifying components and understanding their placement on the board.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Battery and rear PCB**
+#### 📷 Battery and rear PCB
 
-*Insert: `shark-jack-initial-disassembly-6491.HEIC`*
+![Shark Jack initial disassembly 6491](media/initial-disassembly/shark-jack-initial-disassembly-6491.jpg)
 
 **My notes:** I can use this photograph to document the battery position, insulation, wiring, and surrounding circuitry.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Ethernet connection and battery arrangement**
+#### 📷 Ethernet connection and battery arrangement
 
-*Insert: `shark-jack-initial-disassembly-6492.HEIC`*
+![Shark Jack initial disassembly 6492](media/initial-disassembly/shark-jack-initial-disassembly-6492.jpg)
 
 **My notes:** This image provides another angle of the battery and Ethernet connections. I'll use it when inspecting the wiring and solder joints.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Processor and nearby components**
+#### 📷 Processor and nearby components
 
-*Insert: `shark-jack-initial-disassembly-6493.HEIC`*
+![Shark Jack initial disassembly 6493](media/initial-disassembly/shark-jack-initial-disassembly-6493.jpg)
 
 **My notes:** This photograph provides a closer look at the main processor area and nearby surface-mounted components.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Additional IC and USB-C circuitry**
+#### 📷 Additional IC and USB-C circuitry
 
-*Insert: `shark-jack-initial-disassembly-6494.HEIC`*
+![Shark Jack initial disassembly 6494](media/initial-disassembly/shark-jack-initial-disassembly-6494.jpg)
 
 **My notes:** I captured this area to investigate the additional integrated circuit and the components closer to the USB-C end of the PCB.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Battery wiring and switch**
+#### 📷 Battery wiring and switch
 
-*Insert: `shark-jack-initial-disassembly-6495.HEIC`*
+![Shark Jack initial disassembly 6495](media/initial-disassembly/shark-jack-initial-disassembly-6495.jpg)
 
 **My notes:** This view will help me trace the battery wiring and examine the physical switch arrangement.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — PCB reverse side**
+#### 📷 PCB reverse side
 
-*Insert: `shark-jack-initial-disassembly-6496.HEIC`*
+![Shark Jack initial disassembly 6496](media/initial-disassembly/shark-jack-initial-disassembly-6496.jpg)
 
 **My notes:** This photograph captures the opposite side of the PCB, including silkscreen markings and the switch area.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Additional reverse-side inspection**
+#### 📷 Additional reverse-side inspection
 
-*Insert: `shark-jack-initial-disassembly-6497.HEIC`*
+![Shark Jack initial disassembly 6497](media/initial-disassembly/shark-jack-initial-disassembly-6497.jpg)
 
 **My notes:** I took this photograph from another angle to improve visibility of the PCB traces and surrounding components.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Detailed PCB and Ethernet wiring**
+#### 📷 Detailed PCB and Ethernet wiring
 
-*Insert: `shark-jack-initial-disassembly-6509.HEIC`*
+![Shark Jack initial disassembly 6509](media/initial-disassembly/shark-jack-initial-disassembly-6509.jpg)
 
 **My notes:** This photograph provides additional detail around the Ethernet wiring, component footprints, and solder connections.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Main processor and component markings**
+#### 📷 Main processor and component markings
 
-*Insert: `shark-jack-initial-disassembly-6510.HEIC`*
+![Shark Jack initial disassembly 6510](media/initial-disassembly/shark-jack-initial-disassembly-6510.jpg)
 
 **My notes:** This is one of the photographs I can use to identify the processor and other major components.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — Internal battery**
+#### 📷 Internal battery
 
-*Insert: `shark-jack-initial-disassembly-6511.HEIC`*
+![Shark Jack initial disassembly 6511](media/initial-disassembly/shark-jack-initial-disassembly-6511.jpg)
 
 **My notes:** This photograph documents the lithium-polymer battery, its insulation, and its position relative to the PCB.
 
 ------
 
-**📷 IMAGE PLACEHOLDER — PCB revision identification**
+#### 📷 PCB revision identification
 
-*Insert: `shark-jack-initial-disassembly-6512.HEIC`*
+![Shark Jack initial disassembly 6512](media/initial-disassembly/shark-jack-initial-disassembly-6512.jpg)
 
 **My notes:** This view helps document the PCB markings, including the NetPlug identification and hardware revision.
 
@@ -291,13 +293,11 @@ My first set of microscope photographs contains eight images.
 
 These images focus on a particular section of the PCB containing several small SMD components, exposed pads, and traces.
 
-I also photographed a small loose component that I discovered during the investigation.
+I also photographed the tiny SMD component I found stuck to the battery adhesive while opening the device.
 
 ### Photograph 001 — First magnified PCB inspection
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-001.JPG`*
+![Shark Jack LINKMICRO inspection 001](media/microscope/shark-jack-linkmicro-lm249ms-inspection-001.JPG)
 
 **My observations:**
 
@@ -315,9 +315,7 @@ I'll need to compare this area with earlier photographs and examine the solder p
 
 ### Photograph 002 — Closer inspection of SMD components
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-002.JPG`*
+![Shark Jack LINKMICRO inspection 002](media/microscope/shark-jack-linkmicro-lm249ms-inspection-002.JPG)
 
 **My observations:**
 
@@ -333,9 +331,7 @@ For now, I haven't identified conclusive evidence of a missing part at this loca
 
 ### Photograph 003 — Investigating a possible missing component location
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-003.JPG`*
+![Shark Jack LINKMICRO inspection 003](media/microscope/shark-jack-linkmicro-lm249ms-inspection-003.JPG)
 
 **My observations:**
 
@@ -357,21 +353,23 @@ If necessary, I'll use my multimeter to investigate the electrical connections a
 
 ------
 
-## 5.3 Investigating a loose SMD component
+## 5.3 Investigating an SMD component found on the battery adhesive
 
-During the hardware investigation, I found a very small surface-mounted component.
+When I peeled the battery away from the PCB during disassembly, I found a tiny SMD component stuck to its adhesive. This is how I discovered the component; it was not simply a loose part I found elsewhere on the workbench.
 
-Its rectangular shape, tan-colored body, and metallic terminals make it look like a multilayer ceramic capacitor (MLCC).
+The component has a rectangular, tan-colored body with metallic ends. Its appearance suggests a multilayer ceramic capacitor (MLCC), but the identity is not yet fully confirmed.
 
-However, I haven't conclusively identified the component.
+I suspect the adhesive may have pulled the component from the PCB while I separated the battery. I did not witness the exact detachment, however, so I cannot yet say whether it came off during removal or had already been loose. Under the LINKMICRO LM249MS, I found a possible empty two-pad footprint worth investigating. Its location has **not** been confirmed as the component's original position.
 
-I want to determine what it is, whether it belongs to the Shark Jack PCB, and where it may have been installed.
+If I identify the matching footprint and confirm that the pads and component are intact, I may need to solder it back in place. I will not attempt that until I verify where it belongs and check for shorts or damaged pads.
+
+**📷 TODO — Photograph the component on the battery adhesive (if an image from the discovery exists)**
+
+*Insert a photograph of the component where it was found, if available. Otherwise, retain this written observation as the original discovery record.*
 
 ### Photograph 004 — Loose SMD component
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-004.JPG`*
+![Shark Jack LINKMICRO inspection 004](media/microscope/shark-jack-linkmicro-lm249ms-inspection-004.JPG)
 
 **My observations:**
 
@@ -385,9 +383,7 @@ Its appearance is consistent with a ceramic capacitor, although visual appearanc
 
 ### Photograph 005 — SMD component from another angle
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-005.JPG`*
+![Shark Jack LINKMICRO inspection 005](media/microscope/shark-jack-linkmicro-lm249ms-inspection-005.JPG)
 
 **My observations:**
 
@@ -395,7 +391,7 @@ I photographed the same component from another angle to get a better look at its
 
 The metallic ends are visible.
 
-If this component originated from the Shark Jack, identifying its original location could become an important part of the repair.
+Because I recovered this component from the battery adhesive during disassembly, I am investigating whether it came from a nearby PCB footprint.
 
 However, I still need evidence connecting it to a particular PCB footprint.
 
@@ -403,9 +399,7 @@ However, I still need evidence connecting it to a particular PCB footprint.
 
 ### Photograph 006 — Component isolated on my work mat
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-006.JPG`*
+![Shark Jack LINKMICRO inspection 006](media/microscope/shark-jack-linkmicro-lm249ms-inspection-006.JPG)
 
 **My observations:**
 
@@ -417,53 +411,43 @@ I also want to measure its dimensions to estimate the SMD package size.
 
 ------
 
-### Photograph 007 — Close inspection of the component terminals
+### Photograph 007 — Close-Up of the SMD Component Inside Its Protective Case
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-007.JPG`*
+![Shark Jack LINKMICRO inspection 007](media/microscope/shark-jack-linkmicro-lm249ms-inspection-007.JPG)
 
 **My observations:**
 
-This photograph provides another magnified view of the component, including its end terminations.
+I placed the tiny SMD component inside a transparent protective case to prevent accidentally losing or damaging it.
 
-I'm looking for physical damage, chipped ceramic material, or solder residue that might suggest it was detached from a PCB.
+Using my LINKMICRO LM249MS microscope, I captured a magnified view of the component and its metallic terminals through the clear case.
 
-I haven't established whether the component became loose during disassembly or whether it was already detached.
+The component has not been conclusively identified, but its appearance and the 3.888 µF capacitance reading support the possibility that it is a ceramic capacitor.
 
 ------
 
-### Photograph 008 — Additional unidentified component or debris
+### Photograph 008 — SMD Component Secured to an Adhesive Pad Inside Its Protective Case
 
-**📷 IMAGE PLACEHOLDER**
-
-*Insert: `shark-jack-linkmicro-lm249ms-inspection-008.JPG`*
+![Shark Jack LINKMICRO inspection 008](media/microscope/shark-jack-linkmicro-lm249ms-inspection-008.JPG)
 
 **My observations:**
 
-This photograph shows another small, dark object resembling an SMD component.
+This photograph shows the same SMD component from Photograph 007, secured to a small adhesive pad inside its transparent protective case.
 
-I haven't confirmed whether this is the same component photographed earlier, a different electronic component, or unrelated debris.
+Because the component is extremely small and easy to lose, I decided to store it this way until I'm ready to investigate its original location on the PCB.
 
-I'll document it separately until I can identify it.
+The adhesive pad keeps the component from moving freely inside the case.
+
+**Next step:** Once I identify and verify the suspected missing component footprint, I'll evaluate whether the component can be safely soldered back onto the PCB.
 
 ------
 
 # 6. ⚡ Testing the Loose Component
 
-During an earlier inspection, I used my multimeter to measure a loose SMD component.
+After recovering the tiny SMD component from the battery adhesive, I tested it using my multimeter in capacitance mode. I recorded **3.888 µF (microfarads)**.
 
-The meter displayed:
+This reading supports my suspicion that the part is a capacitor, possibly an MLCC. It is near 3.9 µF, but I have not verified the manufacturer's nominal rating, voltage rating, or whether the component is electrically sound. I plan to repeat the measurement under controlled conditions and document the meter and test setup.
 
-**3.888 µF**
-
-This reading corresponds to approximately 3.888 microfarads.
-
-If the component is a capacitor and the measurement is accurate, its nominal capacitance could be close to a common value such as 3.9 µF.
-
-However, I don't want to assume the measurement is accurate without repeating it.
-
-I also need to confirm that the previously measured component is the same one shown in the microscope photographs.
+My working theory is that adhesive pulled a capacitor off the PCB as I removed the battery. The missing-pad location is still only a candidate, not a verified match. I must establish that match before attempting to solder the component back.
 
 ### Measurement record
 
@@ -475,14 +459,18 @@ I also need to confirm that the previously measured component is the same one sh
 | Initial measurement   | 3.888 µF                      |
 | Nominal capacitance   | Unknown                       |
 | SMD package           | Unknown                       |
-| Original PCB location | Unknown                       |
+| Original PCB location | Suspected two-pad footprint; unconfirmed |
 | Component condition   | Not fully evaluated           |
+| Storage | Clear protective case, secured to an adhesive pad (Photographs 007–008) |
+| Where it was found | Stuck to battery adhesive during battery removal |
+| Suspected detachment mechanism | Adhesive pulling the part from the PCB; unconfirmed |
+| Possible repair | Resolder only if original footprint and component integrity are verified |
 
 ### What I plan to test next
 
-Before attempting to reinstall this component, I want to repeat the capacitance measurement and check its physical condition.
+Before attempting to reinstall this component, I want to repeat the capacitance measurement and inspect its body and terminals for damage.
 
-I'll also inspect the PCB to determine whether any footprint matches the component's dimensions.
+I'll also inspect the PCB to determine whether any footprint matches the component's dimensions, solder residue, and electrical connections. I will disconnect power and take care around the lithium-polymer battery before any soldering work.
 
 **I will not solder the component onto the PCB until I can reasonably establish where it belongs.**
 
@@ -736,7 +724,7 @@ I want to keep them documented without treating any of them as confirmed.
 | Damaged bootloader          | Device stopped responding after failed upload | Unconfirmed     |
 | Battery or charging problem | No normal power-up behavior                   | Not tested      |
 | Missing power rail          | No LED or Ethernet activity                   | Not tested      |
-| Detached SMD component      | Loose component discovered                    | Origin unknown  |
+| Detached SMD component      | Found stuck to battery adhesive during removal | Source footprint unconfirmed |
 | Physical PCB damage         | Device was opened for inspection              | Not established |
 | Flash memory failure        | Could prevent booting                         | Not tested      |
 | Processor failure           | Could explain complete unresponsiveness       | No evidence yet |
@@ -765,6 +753,17 @@ I've organized the next steps into phases.
 - Look for damaged traces or lifted solder pads.
 
 **My objective:** Establish whether there is visible physical damage.
+
+### Repair Task 001 — Identify the Suspected Detached SMD Component
+
+**Status:** Open — no soldering performed  
+**Discovery:** Found stuck to the battery adhesive during disassembly  
+**Initial capacitance reading:** 3.888 µF (pending repeat measurement)  
+**Storage:** Transparent protective case with an adhesive retention pad  
+**Candidate PCB location:** An exposed two-pad footprint; not confirmed  
+**Potential action:** Reinstall only after verifying the original footprint, component condition, and pad integrity
+
+I want to use the original disassembly photos, microscope images, package dimensions, solder evidence, and electrical continuity measurements to evaluate the candidate footprint. I will record findings in `measurements/component-tests.md` and the chronology in `docs/repair-log.md`. I will disconnect all power sources and keep the lithium-polymer battery away from the rework area before applying heat.
 
 ## Phase 2 — Investigate the power circuitry
 
@@ -879,7 +878,7 @@ I'm using descriptive filenames so I can recognize photographs without opening e
 For the original disassembly photographs, I'm using the following format:
 
 ```
-shark-jack-initial-disassembly-6489.HEIC
+shark-jack-initial-disassembly-6489.jpg
 ```
 
 For the microscope photographs, I'm using:
@@ -892,38 +891,36 @@ This naming convention preserves the original image identifiers while making the
 
 ### My project directory
 
-```
-shark-jack-netplug-repair/
-│
+```text
+Shark_Jack/
 ├── README.md
-│
-├── photos/
-│   ├── 01_initial_disassembly/
-│   │   ├── shark-jack-initial-disassembly-6489.HEIC
-│   │   ├── shark-jack-initial-disassembly-6490.HEIC
-│   │   └── ...
-│   │
-│   └── 02_linkmicro_lm249ms/
-│       ├── shark-jack-linkmicro-lm249ms-inspection-001.JPG
-│       ├── shark-jack-linkmicro-lm249ms-inspection-002.JPG
-│       └── ...
-│
-├── measurements/
-│   ├── power-rails.md
-│   ├── component-tests.md
-│   └── uart-pinout.md
-│
-├── logs/
-│   └── uart/
-│
+├── docs/
+│   ├── diagnostics/
+│   ├── firmware/
+│   ├── hardware/
+│   └── repair-log.md
 ├── firmware/
-│   └── README.md
-│
-└── references/
-    └── datasheets.md
+│   ├── backups/
+│   ├── original/
+│   └── recovered/
+├── logs/
+│   ├── diagnostics/
+│   └── uart/
+├── measurements/
+├── media/
+│   ├── annotated/
+│   ├── initial-disassembly/
+│   │   ├── shark-jack-initial-disassembly-6489.jpg
+│   │   └── ...
+│   └── microscope/
+│       ├── shark-jack-linkmicro-lm249ms-inspection-001.JPG
+│       └── ...
+├── references/
+│   └── datasheets/
+└── scripts/
 ```
 
-I'll keep the original photographs unchanged whenever possible.
+I'll keep the unedited JPEG documentation copies and the original microscope captures unchanged whenever possible. The original HEIC disassembly files have been replaced in the working tree by JPEG copies; earlier Git history may still contain the HEIC versions.
 
 If I annotate an image to identify a component, trace, or measurement point, I'll save the annotated version separately.
 
@@ -941,15 +938,21 @@ I tested different USB-C cables and power sources without restoring normal opera
 
 I opened the enclosure to investigate the internal hardware and captured 13 photographs documenting the PCB, battery, and surrounding components.
 
+## October 2026 — Battery removal observation
+
+While peeling the battery off its adhesive, I discovered a small SMD component attached to the adhesive. I suspect it was pulled from the PCB, though its original location is not yet confirmed. I measured the recovered component at 3.888 µF and photographed it with the LINKMICRO microscope. Any possible resoldering will wait until I verify the correct footprint.
+
+**Important timeline distinction:** The Shark Jack became unresponsive during the firmware update *before* I opened it. The possible component detachment happened or was discovered later, while separating the battery adhesive. I am investigating these as separate issues rather than treating the capacitor as the established cause of the initial failure.
+
 ## October 19, 2026 — Microscope inspection
 
 I continued the investigation using my LINKMICRO LM249MS digital microscope.
 
-I captured eight additional photographs focusing on small PCB components, exposed solder pads, and a loose SMD component.
+I captured eight additional photographs focusing on small PCB components, exposed solder pads, and the SMD component found stuck to the battery adhesive.
 
 The microscope images revealed several areas worth investigating further.
 
-However, I haven't conclusively identified a missing component footprint or confirmed that the loose component belongs to the Shark Jack.
+I documented that the component was found stuck to the battery adhesive while I peeled the battery away. I suspect the adhesive may have pulled it off the PCB, but I have not conclusively identified the original footprint or confirmed when detachment occurred.
 
 At this point, the project is transitioning from visual inspection to electrical testing.
 
@@ -961,7 +964,7 @@ I've made progress understanding the Shark Jack's internal construction, but I h
 
 I've documented both sides of the PCB, identified several major hardware components, and started investigating the smaller SMD components under magnification.
 
-The loose component remains an open question.
+The SMD component I found stuck to the battery adhesive remains an open repair question. I have measured it at 3.888 µF and stored it in a protective case, but I have not confirmed its PCB footprint or whether it needs resoldering.
 
 The firmware update failure is still the most significant clue, but I need electrical measurements before drawing conclusions.
 
@@ -987,7 +990,7 @@ If the electrical measurements reveal a hardware problem, I'll address that firs
 
 ✅ I've completed an initial LINKMICRO LM249MS inspection.
 
-✅ I've photographed a loose SMD component.
+✅ I found an SMD component stuck to the battery adhesive during removal, measured 3.888 µF, photographed it, and stored it in a clear case on an adhesive pad.
 
 ### What I haven't confirmed
 
@@ -997,7 +1000,7 @@ If the electrical measurements reveal a hardware problem, I'll address that firs
 
 ❌ Whether all required voltage rails are present.
 
-❌ Whether the loose SMD component originated from the PCB.
+❌ Which PCB footprint, if any, the component found on the battery adhesive came from.
 
 ❌ Whether the flash memory can be accessed.
 
