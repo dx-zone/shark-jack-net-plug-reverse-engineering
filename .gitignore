@@ -1,0 +1,117 @@
+# ============================================================
+# Shark Jack Reverse Engineering & Repair Project
+# ============================================================
+
+# ------------------------------------------------------------
+# JetBrains IDEs (GoLand, PyCharm, IntelliJ IDEA, CLion)
+# ------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+cmake-build-*/
+
+# JetBrains Fleet
+.fleet/
+
+# ------------------------------------------------------------
+# Visual Studio Code / VS Code
+# ------------------------------------------------------------
+.vscode/
+*.code-workspace
+.history/
+.vscode-test/
+
+# ------------------------------------------------------------
+# Operating Systems
+# ------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+.Trash-*/
+
+# ------------------------------------------------------------
+# Temporary Files / Editor Backups
+# ------------------------------------------------------------
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------
+# Go
+# ------------------------------------------------------------
+*.test
+*.out
+coverage.out
+coverage.html
+
+# ------------------------------------------------------------
+# Firmware / Flash Memory
+# ------------------------------------------------------------
+# Private flash dumps and recovered firmware
+firmware/backups/*
+firmware/recovered/*
+
+# Preserve optional README documentation
+!firmware/backups/README.md
+!firmware/recovered/README.md
+
+# ------------------------------------------------------------
+# Diagnostic Logs
+# ------------------------------------------------------------
+logs/uart/*
+logs/diagnostics/*
+
+# Preserve optional README documentation
+!logs/uart/README.md
+!logs/diagnostics/README.md
+
+# ------------------------------------------------------------
+# Build Artifacts
+# ------------------------------------------------------------
+build/
+dist/
+tmp/
+temp/
+
+# ------------------------------------------------------------
+# Environment / Secrets
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
